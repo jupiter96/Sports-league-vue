@@ -1,0 +1,91 @@
+{
+  "league": {
+    "id": 39,
+    "name": "Premier League",
+    "country": "England",
+    "logo": "https://media.api-sports.io/football/leagues/39.png",
+    "flag": "https://media.api-sports.io/flags/gb.svg",
+    "season": 2023
+  },
+  "team": {
+    "id": 40,
+    "name": "Liverpool",
+    "logo": "https://media.api-sports.io/football/teams/40.png"
+  },
+  "form": "WWDWWDDW",
+  "fixtures": {
+    "played": { "home": 4, "away": 4, "total": 8 },
+    "wins": { "home": 2, "away": 3, "total": 5 },
+    "draws": { "home": 2, "away": 1, "total": 3 },
+    "loses": { "home": 0, "away": 0, "total": 0 }
+  },
+  "goals": {
+    "for": {
+      "total": { "home": 8, "away": 14, "total": 22 },
+      "average": { "home": "2.0", "away": "3.5", "total": "2.8" },
+      "minute": {
+        "0-15": { "total": 1, "percentage": "4.55%" },
+        "16-30": { "total": 3, "percentage": "13.64%" },
+        "31-45": { "total": 3, "percentage": "13.64%" },
+        "46-60": { "total": 6, "percentage": "27.27%" },
+        "61-75": { "total": 4, "percentage": "18.18%" },
+        "76-90": { "total": 3, "percentage": "13.64%" },
+        "91-105": { "total": 2, "percentage": "9.09%" },
+        "106-120": { "total": null, "percentage": null }
+      }
+    },
+    "against": {
+      "total": { "home": 3, "away": 3, "total": 6 },
+      "average": { "home": "0.8", "away": "0.8", "total": "0.8" },
+      "minute": {
+        "0-15": { "total": null, "percentage": null },
+        "16-30": { "total": 2, "percentage": "33.33%" },
+        "31-45": { "total": null, "percentage": null },
+        "46-60": { "total": null, "percentage": null },
+        "61-75": { "total": 2, "percentage": "33.33%" },
+        "76-90": { "total": 2, "percentage": "33.33%" },
+        "91-105": { "total": null, "percentage": null },
+        "106-120": { "total": null, "percentage": null }
+      }
+    }
+  },
+  "biggest": {
+    "streak": { "wins": 2, "draws": 2, "loses": 0 },
+    "wins": { "home": "3-0", "away": "0-5" },
+    "loses": { "home": null, "away": null },
+    "goals": {
+      "for": { "home": 3, "away": 5 },
+      "against": { "home": 2, "away": 3 }
+    }
+  },
+  "clean_sheet": { "home": 2, "away": 3, "total": 5 },
+  "failed_to_score": { "home": 0, "away": 0, "total": 0 },
+  "penalty": {
+    "scored": { "total": 1, "percentage": "100.00%" },
+    "missed": { "total": 0, "percentage": "0%" },
+    "total": 1
+  },
+  "lineups": [{ "formation": "4-3-3", "played": 8 }],
+  "cards": {
+    "yellow": {
+      "0-15": { "total": 1, "percentage": "11.11%" },
+      "16-30": { "total": 1, "percentage": "11.11%" },
+      "31-45": { "total": 2, "percentage": "22.22%" },
+      "46-60": { "total": null, "percentage": null },
+      "61-75": { "total": 3, "percentage": "33.33%" },
+      "76-90": { "total": 2, "percentage": "22.22%" },
+      "91-105": { "total": null, "percentage": null },
+      "106-120": { "total": null, "percentage": null }
+    },
+    "red": {
+      "0-15": { "total": null, "percentage": null },
+      "16-30": { "total": null, "percentage": null },
+      "31-45": { "total": null, "percentage": null },
+      "46-60": { "total": null, "percentage": null },
+      "61-75": { "total": null, "percentage": null },
+      "76-90": { "total": null, "percentage": null },
+      "91-105": { "total": null, "percentage": null },
+      "106-120": { "total": null, "percentage": null }
+    }
+  }
+}
